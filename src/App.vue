@@ -1,14 +1,17 @@
 <template>
   <div id="app">
+    <BlockContainer/>
   </div>
 </template>
 
 <script>
 
+import BlockContainer from '@/components/BlockContainer';
+
 export default {
   name: 'App',
-  components: {}
-}
+  components: { BlockContainer },
+};
 </script>
 
 <style lang="scss">
